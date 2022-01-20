@@ -1,0 +1,19 @@
+version: '3'
+
+services:
+  txt-reader:
+    build: ./textfile-reader
+    volumes:
+      - ./textfile-reader:/usr/src/app
+    ports:
+      - 5001:80
+
+  website:
+    image: php:apache
+    volumes:
+      - ./webseite:/var/www/html
+    ports:
+      - 5000:80
+    depends_on:
+      - txt-reader
+

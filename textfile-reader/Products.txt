@@ -1,0 +1,5 @@
+candy - 1337
+brownies - 42
+m&ms - 32
+cola - 12
+pepsi - 13
