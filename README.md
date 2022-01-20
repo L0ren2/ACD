@@ -15,4 +15,7 @@ nachinstallieren.
 
 Hoffentlich ist das Projekt hier irgendjemandem von Nutzen, die Inspiration bekam ich, als ich dieses Youtube-Video geschaut habe:
 https://www.youtube.com/watch?v=Qw9zlE3t8Ko
+Der Autor des Videos hat zudem auch unter diesem Link 
+https://github.com/jakewright/tutorials/tree/master/docker/02-docker-compose
+seinen Sourcecode gepublished.
 
